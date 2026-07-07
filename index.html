@@ -1,0 +1,414 @@
+<!doctype html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description"
+        content="Portafolio de Samuel Restrepo Del Valle, desarrollador de videojuegos en Unity y C#.">
+    <title>Samuel Restrepo Del Valle | Gameplay Programmer</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;700&family=Sora:wght@300;400;600;700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <script>/* anti-flash */(function () { var t = localStorage.getItem('theme') || 'dark'; document.documentElement.setAttribute('data-theme', t); }());</script>
+</head>
+
+<body>
+    <header class="site-header" id="inicio">
+        <div class="hero-particles" aria-hidden="true"></div>
+        <div class="hero-bg-parallax" aria-hidden="true"></div>
+        <nav class="nav container">
+            <a class="brand" href="#inicio">SAMUEL RESTREPO</a>
+            <div class="nav-controls">
+                <button class="icon-btn theme-btn" id="themeBtn" aria-label="Toggle theme">☀</button>
+                <button class="icon-btn lang-btn" id="langBtn" aria-label="Switch language">EN</button>
+                <button class="menu-btn" id="menuBtn" aria-label="Toggle menu">☰</button>
+            </div>
+            <ul class="nav-links" id="navLinks">
+                <li><a href="#unity-learn" data-i18n="nav.portfolio">Portafolio</a></li>
+                <li><a href="#sobre-mi" data-i18n="nav.about">Sobre mí</a></li>
+                <li><a href="#cv" data-i18n="nav.cv">CV</a></li>
+                <li><a href="#contacto" data-i18n="nav.contact">Contacto</a></li>
+            </ul>
+        </nav>
+
+        <section class="hero container">
+            <p class="eyebrow">Samuel Restrepo Del Valle | Gameplay Programmer</p>
+            <h1 class="hero-title" data-i18n="hero.h1">Desarrollador integral de videojuegos en Unity con enfoque en
+                mecánicas, sistemas y
+                rendimiento.</h1>
+            <p class="lead" data-i18n="hero.lead">
+                Desarrollo experiencias interactivas en Unity y C#, con base en backend con Node.js y TypeScript.
+                Me enfoco en resolver problemas técnicos complejos de forma colaborativa y en entregar software
+                escalable.
+            </p>
+            <div class="hero-actions">
+                <a class="btn btn-primary" href="#unity-learn" data-i18n="hero.btn.portfolio">Ver portafolio</a>
+                <a class="btn btn-secondary" href="#cv" data-i18n="hero.btn.cv">Ver CV</a>
+            </div>
+            <div class="hero-metrics" aria-label="Métricas destacadas">
+                <article>
+                    <p class="metric-value">5</p>
+                    <p class="metric-label" data-i18n="hero.metric.prototypes">Prototypes</p>
+                </article>
+                <article>
+                    <p class="metric-value">4</p>
+                    <p class="metric-label" data-i18n="hero.metric.challenges">Challenges</p>
+                </article>
+                <article>
+                    <p class="metric-value">C1</p>
+                    <p class="metric-label" data-i18n="hero.metric.english">Inglés</p>
+                </article>
+            </div>
+        </section>
+    </header>
+
+
+    <main>
+        <!-- ── UNITY LEARN ─────────────────────────────────────── -->
+        <section class="section section-alt" id="unity-learn">
+            <div class="container">
+                <div class="section-head reveal">
+                    <h2>Unity Learn</h2>
+                    <p data-i18n="section.unity.desc">Programa Junior Programmer de Generation Colombia — prototypes y
+                        challenges con builds jugables
+                        en Itch.io.</p>
+                    <div class="unity-badges">
+                        <span class="pill">Essentials ✓</span>
+                        <span class="pill" data-i18n="section.unity.badge2">Junior Programmer en curso</span>
+                    </div>
+                </div>
+
+                <!-- PROTOTYPES -->
+                <div class="unity-block">
+                    <div class="unity-title-row reveal">
+                        <h3>Prototypes</h3>
+                        <span class="pill">4 completados · 1 próximamente</span>
+                    </div>
+                    <div class="grid unity-grid">
+
+                        <article class="card unity-card reveal">
+                            <a class="game-img-wrap" href="https://delvadev.itch.io/prototype-1" target="_blank"
+                                rel="noopener noreferrer" aria-label="Jugar Prototype 1 en Itch.io">
+                                <img src="https://img.itch.zone/aW1nLzI4MzM4ODIxLnBuZw==/original/mRfqdM.png"
+                                    alt="Prototype 1 - Drive" loading="lazy">
+                                <div class="game-overlay"><span class="play-btn" data-i18n="btn.play">▶ Jugar</span>
+                                </div>
+                            </a>
+                            <div class="game-body">
+                                <p class="tag">Prototype 1</p>
+                                <h4>Drive</h4>
+                                <p data-i18n="p1.desc">Vehículo que avanza solo; esquiva obstáculos a alta velocidad en
+                                    un nivel procedural.</p>
+                                <ul class="meta-list">
+                                    <li><strong data-i18n="label.mechanic">Mecánica:</strong> <span
+                                            data-i18n="p1.mech">Físicas, colisiones y control de cámara</span></li>
+                                    <li><strong data-i18n="label.language">Lenguaje:</strong> C# · Unity</li>
+                                </ul>
+                            </div>
+                        </article>
+
+                        <article class="card unity-card reveal">
+                            <a class="game-img-wrap" href="https://delvadev.itch.io/prototype-2" target="_blank"
+                                rel="noopener noreferrer" aria-label="Jugar Prototype 2 en Itch.io">
+                                <img src="https://img.itch.zone/aW1nLzI4MzM4ODM2LnBuZw==/original/kqKuw2.png"
+                                    alt="Prototype 2 - Feed the Animals" loading="lazy">
+                                <div class="game-overlay"><span class="play-btn" data-i18n="btn.play">▶ Jugar</span>
+                                </div>
+                            </a>
+                            <div class="game-body">
+                                <p class="tag">Prototype 2</p>
+                                <h4>Feed the Animals</h4>
+                                <p data-i18n="p2.desc">Lanza comida a animales que se acercan desde los lados con ritmo
+                                    y precisión.</p>
+                                <ul class="meta-list">
+                                    <li><strong data-i18n="label.mechanic">Mecánica:</strong> <span
+                                            data-i18n="p2.mech">Sistema de disparo, spawning y dificultad</span></li>
+                                    <li><strong data-i18n="label.language">Lenguaje:</strong> C# · Unity</li>
+                                </ul>
+                            </div>
+                        </article>
+
+                        <article class="card unity-card reveal">
+                            <a class="game-img-wrap" href="https://delvadev.itch.io/prototype-3" target="_blank"
+                                rel="noopener noreferrer" aria-label="Jugar Prototype 3 en Itch.io">
+                                <img src="https://img.itch.zone/aW1nLzI4MzM4ODQyLnBuZw==/original/MhZlsS.png"
+                                    alt="Prototype 3 - Herd the Animals" loading="lazy">
+                                <div class="game-overlay"><span class="play-btn" data-i18n="btn.play">▶ Jugar</span>
+                                </div>
+                            </a>
+                            <div class="game-body">
+                                <p class="tag">Prototype 3</p>
+                                <h4>Herd the Animals</h4>
+                                <p data-i18n="p3.desc">Pastoreo topdown: guía animales a su zona con un personaje
+                                    controlable.</p>
+                                <ul class="meta-list">
+                                    <li><strong data-i18n="label.mechanic">Mecánica:</strong> <span
+                                            data-i18n="p3.mech">IA de seguimiento, detección de área</span></li>
+                                    <li><strong data-i18n="label.language">Lenguaje:</strong> C# · Unity</li>
+                                </ul>
+                            </div>
+                        </article>
+
+                        <article class="card unity-card reveal">
+                            <a class="game-img-wrap" href="https://delvadev.itch.io/prototype-4" target="_blank"
+                                rel="noopener noreferrer" aria-label="Jugar Prototype 4 en Itch.io">
+                                <img src="https://img.itch.zone/aW1nLzI4MzM4ODU2LnBuZw==/original/gzBaZM.png"
+                                    alt="Prototype 4 - Sumo Battle" loading="lazy">
+                                <div class="game-overlay"><span class="play-btn" data-i18n="btn.play">▶ Jugar</span>
+                                </div>
+                            </a>
+                            <div class="game-body">
+                                <p class="tag">Prototype 4</p>
+                                <h4>Sumo Battle</h4>
+                                <p data-i18n="p4.desc">Empuja a los enemigos fuera de la plataforma antes de que te
+                                    eliminen.</p>
+                                <ul class="meta-list">
+                                    <li><strong data-i18n="label.mechanic">Mecánica:</strong> <span
+                                            data-i18n="p4.mech">Rigidbody, oleadas de enemigos y empuje</span></li>
+                                    <li><strong data-i18n="label.language">Lenguaje:</strong> C# · Unity</li>
+                                </ul>
+                            </div>
+                        </article>
+
+                        <article class="card unity-card card-soon reveal">
+                            <div class="game-img-soon">
+                                <div class="soon-badge" data-i18n="badge.soon">Próximamente</div>
+                            </div>
+                            <div class="game-body">
+                                <p class="tag">Prototype 5</p>
+                                <h4>Prototype 5</h4>
+                                <p data-i18n="p5.desc">En desarrollo — disponible próximamente en Itch.io.</p>
+                            </div>
+                        </article>
+
+                    </div>
+                </div>
+
+                <!-- CHALLENGES -->
+                <div class="unity-block">
+                    <div class="unity-title-row reveal">
+                        <h3>Challenges</h3>
+                        <span class="pill" data-i18n="challenges.pill" data-i18n="prototypes.pill">4 completados · 1
+                            próximamente</span>
+                    </div>
+                    <div class="grid unity-grid">
+
+                        <article class="card unity-card reveal">
+                            <a class="game-img-wrap" href="https://delvadev.itch.io/challenge-1" target="_blank"
+                                rel="noopener noreferrer" aria-label="Jugar Challenge 1 en Itch.io">
+                                <img src="https://img.itch.zone/aW1nLzI4MzM4NzYwLnBuZw==/original/TgBptN.png"
+                                    alt="Challenge 1" loading="lazy">
+                                <div class="game-overlay"><span class="play-btn" data-i18n="btn.play">▶ Jugar</span>
+                                </div>
+                            </a>
+                            <div class="game-body">
+                                <p class="tag">Challenge 1</p>
+                                <h4>Challenge 1</h4>
+                                <p data-i18n="c1.desc">Variación de Drive con mecánicas adicionales y mayor dificultad
+                                    personalizada.</p>
+                                <ul class="meta-list">
+                                    <li><strong data-i18n="label.task">Reto:</strong> <span data-i18n="c1.task">Extender
+                                            el gameplay sin romper la arquitectura base</span></li>
+                                    <li><strong data-i18n="label.language">Lenguaje:</strong> C# · Unity</li>
+                                </ul>
+                            </div>
+                        </article>
+
+                        <article class="card unity-card reveal">
+                            <a class="game-img-wrap" href="https://delvadev.itch.io/challenge-2" target="_blank"
+                                rel="noopener noreferrer" aria-label="Jugar Challenge 2 en Itch.io">
+                                <img src="https://img.itch.zone/aW1nLzI4MzM4Nzc1LnBuZw==/original/eC4zES.png"
+                                    alt="Challenge 2" loading="lazy">
+                                <div class="game-overlay"><span class="play-btn" data-i18n="btn.play">▶ Jugar</span>
+                                </div>
+                            </a>
+                            <div class="game-body">
+                                <p class="tag">Challenge 2</p>
+                                <h4>Challenge 2</h4>
+                                <p data-i18n="c2.desc">Feed the Animals con dificultad progresiva y nuevos tipos de
+                                    objetivo.</p>
+                                <ul class="meta-list">
+                                    <li><strong data-i18n="label.task">Reto:</strong> <span
+                                            data-i18n="c2.task">Dificultad escalonada y comportamientos nuevos</span>
+                                    </li>
+                                    <li><strong data-i18n="label.language">Lenguaje:</strong> C# · Unity</li>
+                                </ul>
+                            </div>
+                        </article>
+
+                        <article class="card unity-card reveal">
+                            <a class="game-img-wrap" href="https://delvadev.itch.io/challenge-3" target="_blank"
+                                rel="noopener noreferrer" aria-label="Jugar Challenge 3 en Itch.io">
+                                <img src="https://img.itch.zone/aW1nLzI4MzM4Nzg1LnBuZw==/original/4iDcSo.png"
+                                    alt="Challenge 3" loading="lazy">
+                                <div class="game-overlay"><span class="play-btn" data-i18n="btn.play">▶ Jugar</span>
+                                </div>
+                            </a>
+                            <div class="game-body">
+                                <p class="tag">Challenge 3</p>
+                                <h4>Challenge 3</h4>
+                                <p data-i18n="c3.desc">Variación de Herd the Animals con mecánicas personalizadas y
+                                    retos adicionales.</p>
+                                <ul class="meta-list">
+                                    <li><strong data-i18n="label.task">Reto:</strong> <span data-i18n="c3.task">Nuevos
+                                            comportamientos y condiciones de victoria</span></li>
+                                    <li><strong data-i18n="label.language">Lenguaje:</strong> C# · Unity</li>
+                                </ul>
+                            </div>
+                        </article>
+
+                        <article class="card unity-card reveal">
+                            <a class="game-img-wrap" href="https://delvadev.itch.io/challenge-4" target="_blank"
+                                rel="noopener noreferrer" aria-label="Jugar Challenge 4 en Itch.io">
+                                <img src="https://img.itch.zone/aW1nLzI4MzM4ODAwLnBuZw==/original/PyZC63.png"
+                                    alt="Challenge 4 - Soccer-Style Game" loading="lazy">
+                                <div class="game-overlay"><span class="play-btn" data-i18n="btn.play">▶ Jugar</span>
+                                </div>
+                            </a>
+                            <div class="game-body">
+                                <p class="tag">Challenge 4</p>
+                                <h4>Soccer-Style Game</h4>
+                                <p data-i18n="c4.desc">Arcade con físicas de turbo, oleadas dinámicas y enemigos con IA
+                                    de persecución.</p>
+                                <ul class="meta-list">
+                                    <li><strong data-i18n="label.task">Reto:</strong> <span data-i18n="c4.task">Escalar
+                                            dificultad sin romper el ritmo de juego</span></li>
+                                    <li><strong data-i18n="label.language">Lenguaje:</strong> C# · Unity</li>
+                                </ul>
+                            </div>
+                        </article>
+
+                        <article class="card unity-card card-soon reveal">
+                            <div class="game-img-soon">
+                                <div class="soon-badge" data-i18n="badge.soon">Próximamente</div>
+                            </div>
+                            <div class="game-body">
+                                <p class="tag">Challenge 5</p>
+                                <h4>Challenge 5</h4>
+                                <p data-i18n="c5.desc">En desarrollo — disponible próximamente en Itch.io.</p>
+                            </div>
+                        </article>
+
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+        <!-- ── ABOUT ───────────────────────────────────────────── -->
+        <section class="section container" id="sobre-mi">
+            <div class="about-grid">
+                <div class="about-photo-wrap reveal">
+                    <img src="pfp.png" alt="Samuel Restrepo Del Valle" class="about-photo">
+                </div>
+                <div class="about-text reveal">
+                    <h2 data-i18n="about.h2">Acerca de mí</h2>
+                    <p data-i18n="about.p1">
+                        Soy Samuel Restrepo Del Valle, desarrollador integral de videojuegos especializado en Unity y
+                        C#.
+                        Busco oportunidades como gameplay programmer o desarrollador Unity Jr. donde pueda aportar en
+                        mecánicas, IA de juego y arquitectura de sistemas.
+                    </p>
+                    <p data-i18n="about.p2">
+                        Mi crecimiento combina formación técnica, experiencia en automatización y aprendizaje continuo.
+                        Disfruto transformar ideas en experiencias jugables claras, retadoras y bien optimizadas.
+                    </p>
+                    <div class="skills-chips">
+                        <span>Unity</span>
+                        <span>C#</span>
+                        <span>Node.js</span>
+                        <span>TypeScript</span>
+                        <span>Git / GitHub</span>
+                        <span>Blender</span>
+                        <span>Inglés C1</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ── CV ─────────────────────────────────────────────── -->
+        <section class="section section-alt" id="cv">
+            <div class="container cv-layout">
+                <div>
+                    <h2 data-i18n="cv.h2">CV</h2>
+                    <p data-i18n="cv.desc">Resumen de formación y experiencia relevante para desarrollo de videojuegos y
+                        software.</p>
+                    <ul class="meta-list">
+                        <li><strong data-i18n="cv.edu.label">Educación:</strong> <span data-i18n="cv.edu.val">Generation
+                                Colombia (Unity Jr., 2026), Cedes-Inexsu (Backend, 2025)</span></li>
+                        <li><strong data-i18n="cv.exp.label">Experiencia:</strong> <span data-i18n="cv.exp.val">Hybridge
+                                Education (app móvil), Colsabor S.A.S. (automatización)</span></li>
+                        <li><strong data-i18n="cv.skills.label">Habilidades:</strong> <span
+                                data-i18n="cv.skills.val">Unity, C#, Node.js, TypeScript, Git/GitHub, Blender, IA
+                                aplicada</span></li>
+                        <li><strong data-i18n="cv.lang.label">Idiomas:</strong> <span data-i18n="cv.lang.val">Español
+                                nativo, Inglés C1</span></li>
+                    </ul>
+                </div>
+                <a class="btn btn-primary" href="Samuel_Restrepo_CV.md" data-i18n="cv.btn">Ver CV completo</a>
+            </div>
+        </section>
+
+        <!-- ── CONTACTO ───────────────────────────────────────── -->
+        <section class="section container" id="contacto">
+            <div class="section-head">
+                <h2 data-i18n="contact.h2">Contacto y enlaces</h2>
+                <p data-i18n="contact.desc">Acceso directo a todas mis plataformas.</p>
+            </div>
+            <div class="contact-grid">
+                <a class="contact-card reveal" href="mailto:samuelrestrepodev@gmail.com">
+                    <h3>Email</h3>
+                    <p>samuelrestrepodev@gmail.com</p>
+                </a>
+                <a class="contact-card reveal" href="https://github.com/DelValleDev" target="_blank"
+                    rel="noopener noreferrer">
+                    <h3>GitHub</h3>
+                    <p>github.com/DelValleDev</p>
+                </a>
+                <a class="contact-card reveal" href="https://delvadev.itch.io" target="_blank"
+                    rel="noopener noreferrer">
+                    <h3>Itch.io</h3>
+                    <p>delvadev.itch.io</p>
+                </a>
+                <a class="contact-card reveal" href="https://www.linkedin.com/in/samurpodev" target="_blank"
+                    rel="noopener noreferrer">
+                    <h3>LinkedIn</h3>
+                    <p>linkedin.com/in/samurpodev</p>
+                </a>
+            </div>
+        </section>
+
+        <!-- ── ACTUALIZACIONES ────────────────────────────────── -->
+        <section class="section section-alt" id="actualizaciones">
+            <div class="container">
+                <div class="section-head">
+                    <h2 data-i18n="updates.h2">Actualizaciones recientes</h2>
+                    <p data-i18n="updates.desc">Evidencia de mantenimiento activo del portafolio.</p>
+                </div>
+                <ul class="updates-list">
+                    <li><time datetime="2026-07-06">2026-07-06</time> <span data-i18n="update1">Challenge 3 publicado en
+                            Itch.io — tarjeta activada con thumbnail y link jugable.</span></li>
+                    <li><time datetime="2026-07-06">2026-07-06</time> <span data-i18n="update2">Parallax, animaciones de
+                            scroll, foto profesional y efectos de hover implementados.</span></li>
+                    <li><time datetime="2026-07-06">2026-07-06</time> <span data-i18n="update3">Links funcionales a
+                            todos los juegos publicados: Prototypes 1–4, Challenges 1, 2, 3 y 4.</span></li>
+                </ul>
+            </div>
+        </section>
+    </main>
+
+    <footer class="site-footer">
+        <div class="container footer-row">
+            <p>© 2026 Samuel Restrepo Del Valle | Gameplay Programmer</p>
+            <a href="#inicio" data-i18n="footer.back">↑ Volver arriba</a>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
